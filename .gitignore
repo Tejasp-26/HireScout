@@ -1,0 +1,26 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Secrets - never commit these
+.env
+.env.*
+!.env.example
+*service-account*.json
+*credentials*.json
+*token*.json
+
+# App data (database, uploaded resumes, search index)
+backend/data/
+
+# Node
+node_modules/
+dist/
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
